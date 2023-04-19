@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sliit.MTIT.Product", "Sliit.MTIT.Product\Sliit.MTIT.Product.csproj", "{7E2EDB7D-3B22-4D68-8BAF-3FA80631BDF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sliit.MTIT.Ocelote", "Sliit.MTIT.Ocelote\Sliit.MTIT.Ocelote.csproj", "{5BAC298D-A4A7-44BB-B2AF-8C5C59BC5CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sliit.MTIT.Ocelote", "Sliit.MTIT.Ocelote\Sliit.MTIT.Ocelote.csproj", "{5BAC298D-A4A7-44BB-B2AF-8C5C59BC5CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sliit.MTIT.Customer", "Sliit.MTIT.Customer\Sliit.MTIT.Customer.csproj", "{67B2DC05-E1BB-4543-BA89-19FB49FDDC72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{5BAC298D-A4A7-44BB-B2AF-8C5C59BC5CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BAC298D-A4A7-44BB-B2AF-8C5C59BC5CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BAC298D-A4A7-44BB-B2AF-8C5C59BC5CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B2DC05-E1BB-4543-BA89-19FB49FDDC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B2DC05-E1BB-4543-BA89-19FB49FDDC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B2DC05-E1BB-4543-BA89-19FB49FDDC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B2DC05-E1BB-4543-BA89-19FB49FDDC72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7E2EDB7D-3B22-4D68-8BAF-3FA80631BDF8} = {9CC82B17-BB1A-479C-8B20-18EFD5E875F3}
 		{5BAC298D-A4A7-44BB-B2AF-8C5C59BC5CD7} = {9CC82B17-BB1A-479C-8B20-18EFD5E875F3}
+		{67B2DC05-E1BB-4543-BA89-19FB49FDDC72} = {9CC82B17-BB1A-479C-8B20-18EFD5E875F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2086ECB3-D537-4A1A-94E3-BF11C4016CB6}

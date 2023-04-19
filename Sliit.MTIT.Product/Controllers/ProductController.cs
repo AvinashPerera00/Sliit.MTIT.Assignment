@@ -21,9 +21,9 @@ namespace Sliit.MTIT.Product.Controllers
 
 
         /// <summary>
-        /// Get all students
+        /// Get all products
         /// </summary>
-        /// <returns>return the list of students</returns>
+        /// <returns>return the list of products</returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -31,10 +31,10 @@ namespace Sliit.MTIT.Product.Controllers
         }
 
         /// <summary>
-        /// Get student by ID
+        /// Get product by ID
         /// </summary>
         /// <param name="id"></param>
-        /// <returns>Return the student with the passed ID</returns>
+        /// <returns>Return the product with the passed ID</returns>
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
@@ -42,10 +42,10 @@ namespace Sliit.MTIT.Product.Controllers
         }
 
         /// <summary>
-        /// Add students
+        /// Add products
         /// </summary>
-        /// <param name="student"></param>
-        /// <returns>Return the added student</returns>
+        /// <param name="product"></param>
+        /// <returns>Return the added product</returns>
         [HttpPost]
         public IActionResult Post([FromBody] Models.Product product)
         {
@@ -53,10 +53,10 @@ namespace Sliit.MTIT.Product.Controllers
         }
 
         /// <summary>
-        /// Update the student
+        /// Update the product
         /// </summary>
-        /// <param name="student"></param>
-        /// <returns>Return the updated student</returns>
+        /// <param name="product"></param>
+        /// <returns>Return the updated product</returns>
         [HttpPut]
         public IActionResult Put([FromBody] Models.Product product)
         {
@@ -64,7 +64,7 @@ namespace Sliit.MTIT.Product.Controllers
         }
 
         /// <summary>
-        /// Delete the student with the passed ID
+        /// Delete the product with the passed ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
